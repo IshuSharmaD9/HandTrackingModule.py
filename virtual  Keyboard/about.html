@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="about.css">
+    <title>About</title>
+</head>
+
+<script>
+    function hitAPI() {
+      fetch('http://127.0.0.1:8000/aiKeyBox/test')
+        .then(response => {
+          // Handle response if needed
+          console.log('API successfully hit');
+        })
+        .catch(error => {
+          // Handle error if needed
+          console.error('Error hitting API:', error);
+        });
+    }
+  </script>
+<body>
+    
+    <section1>
+        
+        
+        <header>
+            <h2 class="logo">LoGo</h2>
+            <nav class="navigation">
+                .<a href="">Home</a>
+                <a href="#" onclick="hitAPI()">Virtual Keyboard</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html"><button class="btnLogin-popup"> Login</button></a>
+    
+            </nav>
+        </header>
+        <div class="max-width">
+            <div class="home"> 
+                <div><h1>Welcome to new world </h1></div> <br>
+                <div><h2>AI Based :<span> Virtual KEYBOARD</span></h2></div><br>
+            </div>
+        </div>
+
+
+    </section1>
+    <section2>
+
+        <div class="About">
+            
+            <div class="aboutus">
+                <h3> : About Us :</h3>
+                <p> An AI virtual keyboard that can detect and type based solely on finger 
+                    movements captured by a camera without any physical contact with a keyboard
+                     or touchpad if  such a technology has been developed after our last update, it would 
+                     likely involve complex machine learning algorithms to interpret finger movements, predictive 
+                     text algorithms, and precise tracking through a camera or sensor system.
+
+                </p>
+                <button > Read More....</button>
+
+            </div>
+        </div>
+    </section2>
+
+
+    <section3>
+        <div class="virtual">
+            <div class="keyboard">
+                <button href="C:\Users\hp\OneDrive\Desktop\virtual  Keyboard\AI_Virtual_Keyboard-master\main.py"> Lets Move</button>
+            </div>
+        </div>
+    </section3>
+
+
+    <div class="Container_contact">
+        <div class="Box_container">
+            <div class="Contact_box1">
+                <div class="Titlee"><h2>Let's get in touch</h2></div>
+                <p class="Textt">Feel like contacting us?Submit your queries here and we will get back to you as soon as possible.</p>
+                <div class="mail"><i class="fa fa-envelope"></i>
+                    <p>-virtualkeyboard@gmail.com</p>
+                </div>
+                <div class="phone"><i class="fa-solid fa-phone-volume"></i>
+                <p> +91 9800000021</p>
+            </div>
+            <div class="Social_media">
+                <p>Connect with us :</p>
+                <div class="Social_icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            </div>
+           
+            <div class="Contact_box2"> 
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+                <form>
+                    <h3 class="Tittle">Contact Us</h3>
+                    <div class="Input_container">
+                        <input type="text" name="name" class="Input" placeholder="Name">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="Input_container">
+                        <input type="email" name="email" class="Input" placeholder="Email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="Input_container">
+                        <input type="tel" name="phone" class="Input" placeholder="Phone">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="Input_container">
+                       <textarea name="message" class="Input" placeholder="Message"></textarea>
+                        <label for="">Username</label>
+                    </div>
+                    <input type="submit" value="Send" class="btn"/>
+                </form>
+            </div>
+               
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="footer">
+        <ul>
+            <li class = "head3"><h3>Download Our App</h3></li>
+            <li>Download our app from Ios and Android store</li>
+            <li class = "download"><a href=" "><img src = "photos/playstore.png" ></a></li>
+        </ul>
+        <ul>
+            <li><img src="" id="logo"></li>
+            <li>Team-Virtual Keyboard present's you a most beautiful tech world.</li>
+        </ul>
+        <ul>
+            <li><h3 class="head3">Useful Links</h3></li>
+            <li><a href=" ">Blog Post</a></li>
+            <li><a href=" ">Join Affiliate</a></li>
+        </ul>
+        <ul>
+            <li><h3 class="head3">Follow Us</h3></li>
+            <li><a href=" ">Instagram</a></li>
+            <li><a href=" ">Youtube</a></li>
+            <li><a href=" ">Facebook</a></li>
+            <li><a href=" ">Twitter</a></li>
+        </ul>
+    </div>
+    <div class="end">
+        <hr>
+        <div id="textend">Copyright Reserved  &copy;  2023</div>
+    </div>
+    
+</body>
+</html>
